@@ -32,4 +32,4 @@ Which records should a billing analyst review because of negative charges, repea
 - **High charge:** above Q3 + 1.5 × IQR among nonnegative charges in the same medical condition.
 - **Needs review:** at least one of these flags. Flags overlap; do not add category totals to calculate unique records.
 
-This simple version deliberately **does not use machine learning**. It prioritizes readable, reproducible code and transparent rules. It cannot determine fraud, actual revenue, or financial loss. No real hospital conclusions should be drawn from synthetic data.
+This prioritizes readable, reproducible code and transparent rules. It cannot determine fraud, actual revenue, or financial loss. No real hospital conclusions should be drawn from synthetic data.
