@@ -1,0 +1,6 @@
+metric,count
+Original records,55500
+Negative charges,108
+Additional exact duplicates,534
+High charges (IQR),0
+Unique records flagged,640
