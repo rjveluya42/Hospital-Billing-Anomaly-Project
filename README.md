@@ -33,6 +33,3 @@ Which records should a billing analyst review because of negative charges, repea
 - **Needs review:** at least one of these flags. Flags overlap; do not add category totals to calculate unique records.
 
 This simple version deliberately **does not use machine learning**. It prioritizes readable, reproducible code and transparent rules. It cannot determine fraud, actual revenue, or financial loss. No real hospital conclusions should be drawn from synthetic data.
-
-## LinkedIn-ready description
-Built a Python and SQL billing anomaly review project using 55,500 synthetic healthcare records. Applied explainable data-quality rules to flag negative charges, exact duplicates, and statistically high charges. Generated five report charts, CSV audit outputs, a SQLite database, and a filterable Streamlit dashboard to support record review.
